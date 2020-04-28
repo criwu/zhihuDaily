@@ -1,0 +1,48 @@
+.slider.am-carousel {
+    touch-action: none;
+}
+
+.index .slider-decorator-0 {
+    background-color: transparent;
+    bottom: .3rem !important;
+    right: 0rem !important;
+    text-align: right !important;
+    padding-right: .2rem !important;
+}
+
+.index .am-carousel-wrap {
+    text-align: right !important;
+}
+
+.index .am-carousel-wrap-dot>span {
+    width: .06rem;
+    height: .06rem;
+    border-radius: .03rem;
+    transition: width 1s;
+}
+
+.index .am-carousel-wrap-dot-active>span {
+    width: 0.3rem;
+    background-color: #fff;
+}
+
+.index .con-carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 1rem .3rem .4rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.index .con-carousel .title {
+    font-size: .4rem;
+    padding: 0 0 .2rem;
+    line-height: .48rem;
+}
+
+.index .con-carousel .hint {
+    font-size: .22rem;
+    color: rgba(255, 255, 255, .8);
+}

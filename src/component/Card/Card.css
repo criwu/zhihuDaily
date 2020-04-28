@@ -1,0 +1,37 @@
+.index .news {
+    padding-top: .4rem;
+}
+
+.index .news li {
+    box-sizing: border-box;
+    padding: 0 .26rem .5rem;
+}
+
+.index .news li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index .news .left {
+    width: 72%;
+    color: #1a1a1a;
+}
+
+.index .news .right {
+    width: 20%;
+}
+
+.index .news h3 {
+    margin: .1rem 0 .14rem;
+    line-height: .38rem;
+}
+
+.index .news span {
+    color: #999;
+    font-size: .22rem;
+}
+
+.index .news img {
+    width: 100%;
+    border-radius: .04rem;
+}

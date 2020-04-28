@@ -1,0 +1,92 @@
+.comment {
+    background: #fefefe;
+    min-height: calc(100vh - 2.02rem);
+    padding: 1.01rem 0;
+    position: relative;
+}
+
+.comment header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 100vw;
+    background: #fefefe;
+    z-index: 999;
+    border-bottom: .01rem solid #ccc;
+}
+
+.comment header h3 {
+    height: 100%;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .35rem;
+    font-weight: 400;
+}
+
+.comment .no-comment {
+    position: absolute;
+    top: 1.01rem;
+    height: calc(100vh - 2.02rem);
+    width: 100vw;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.comment .no-comment>div {
+    text-align: center;
+    width: 100%;
+}
+
+.comment .no-comment span {
+    display: block;
+    color: #999;
+    margin-top: .3rem;
+}
+
+.comment .no-comment .icon-shafa {
+    font-size: 1.6rem;
+    color: #999;
+}
+
+/* 底部评论 */
+
+.comment footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 1rem;
+    width: 100vw;
+    background: #ebebeb;
+    z-index: 999;
+    border-bottom: .01rem solid #ccc;
+}
+
+.comment footer .discuss {
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    color: #999;
+}
+
+.comment footer .discuss img {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 100%;
+    margin: 0 .24rem;
+}
+
+/* 短评 */
+
+.comment .am-accordion-content-box .com-card:nth-last-child(2) {
+    border: none;
+}
+
+.comment .no-more {
+    height: 1rem;
+    line-height: 1rem;
+    color: #999;
+    text-align: center;
+    font-size: .24rem;
+}

@@ -1,0 +1,75 @@
+.collect header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 100vw;
+    background: #fefefe;
+    z-index: 999;
+    border-bottom: .01rem solid #ccc;
+}
+
+.collect header h3 {
+    height: 100%;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .35rem;
+    font-weight: 400;
+}
+
+.collect {
+    padding-top: 1.01rem 0 0;
+}
+
+.collect .no-collections {
+    height: calc(100vh - 1.01rem);
+    line-height: calc(100vh - 1.01rem);
+    text-align: center;
+    color: #999;
+}
+
+/* collect card */
+
+.collect li {
+    box-sizing: border-box;
+    padding: 0.25rem .26rem .25rem;
+    list-style: none;
+    align-content: center;
+    background: #fefefe;
+    border-bottom: .01rem solid #ccc;
+}
+
+.collect li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collect li h4 {
+    line-height: .4rem;
+    text-align: left;
+    font-size: .28rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.collect li .left {
+    width: 72%;
+    display: flex;
+    align-items: center;
+}
+
+.collect .right {
+    width: 20%;
+}
+
+.collect img {
+    width: 100%;
+    border-radius: .04rem;
+}
+
+.collect .no-more {
+    height: 1rem;
+    color: #999;
+    text-align: center;
+    line-height: 1rem;
+}

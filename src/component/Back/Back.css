@@ -1,0 +1,9 @@
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    text-align: center;
+    line-height: 1rem;
+    height: 1rem;
+}

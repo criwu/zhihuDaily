@@ -1,0 +1,40 @@
+.index {
+    padding-top: 1rem;
+}
+
+.index .before {
+    padding-top: .2rem;
+    position: relative;
+    border-top: 0.01rem solid #e0e0e0;
+}
+
+.index .before .show-time {
+    position: absolute;
+    top: -.5rem;
+    left: 0;
+    height: 1rem;
+    line-height: 1rem;
+    width: 1.6rem;
+    background: #f0f0f0;
+    text-align: center;
+    color: #888;
+}
+
+/* 抽屉 */
+
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
+}

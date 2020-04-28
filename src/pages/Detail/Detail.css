@@ -1,0 +1,106 @@
+.detail {
+    background: #fefefe;
+    padding-bottom: 1rem;
+}
+
+.detail .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.detail .img .hue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding-top: 2rem;
+}
+
+.detail .img .hue p {
+    color: #fff;
+    font-size: .38rem;
+    padding: 0 .2rem;
+    line-height: .44rem;
+}
+
+.detail .img .hue span {
+    display: block;
+    text-align: right;
+    font-size: .16rem;
+    color: #fff;
+    opacity: .3;
+    margin: .1rem .1rem .2rem 0;
+}
+
+.detail .img img {
+    width: 100%;
+}
+
+.detail .headline .img-place-holder {
+    height: 7rem;
+}
+
+.detail .content {
+    font-size: .32rem;
+}
+
+.detail .question-title {
+    font-size: .38rem;
+    margin: .4rem 0;
+}
+
+.detail .meta {
+    font-size: .26rem;
+}
+
+/* footer */
+
+.detail .foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: .6rem;
+    width: 100vw;
+    background-color: #f6f6f6;
+    z-index: 999;
+    padding: .2rem 0;
+}
+
+.detail .foot ul {
+    position: absolute;
+    top: .2rem;
+    right: 0;
+    width: 84%;
+    height: .6rem;
+    line-height: .6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    border-left: 0.01rem solid #ccc;
+    box-sizing: border-box;
+}
+
+.detail .foot .icon-ziyuan {
+    font-size: .4rem;
+}
+
+.detail .foot .icon-shoucang, .detail .foot .icon-shoucangfill {
+    font-size: .54rem;
+    font-weight: 500;
+    display: inline-block;
+    width: .5rem;
+}
+
+.detail .foot li {
+    position: relative;
+}
+
+.detail .foot li span {
+    position: absolute;
+    top: -.1rem;
+    left: .5rem;
+    font-size: .16rem;
+    color: #333;
+}

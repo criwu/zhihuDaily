@@ -1,0 +1,45 @@
+.index header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: .7rem;
+    padding: 0.15rem 0;
+    display: flex;
+    z-index: 999;
+    background-color: #f0f0f0;
+}
+
+.index header span {
+    display: block;
+}
+
+.index header .date-day {
+    font-size: .36rem;
+    font-weight: 500;
+}
+
+.index header .date-month {
+    font-size: .22rem;
+}
+
+.index header .time {
+    font-size: .42rem;
+    line-height: .7rem;
+    width: 66.67%;
+    padding-left: .2rem;
+    box-sizing: border-box;
+}
+
+.index header .date {
+    width: 16.66%;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.index header img {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 100%;
+}

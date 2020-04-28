@@ -1,0 +1,79 @@
+.com-card {
+    padding: .2rem 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.com-card .left {
+    width: 14%;
+    text-align: center;
+}
+
+.com-card .left img {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 100%;
+}
+
+.com-card .right {
+    width: 86%;
+}
+
+.com-card .right .user {
+    padding-bottom: .16rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-card .right .user span {
+    font-weight: bold;
+}
+
+.com-card .right p {
+    font-size: .26rem;
+    line-height: .38rem;
+    padding-right: .3rem;
+}
+
+.com-card .bottom {
+    padding-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .24rem;
+    color: #999;
+}
+
+.com-card .bottom>div {
+    display: flex;
+}
+
+.com-card .icon-tubiaodianzan, .com-card .icon-comment, .com-card .icon-gengduo {
+    font-size: .34rem;
+    color: #999;
+    margin: 0 .3rem 0 .3rem;
+}
+
+.com-card .icon-tubiaodianzan {
+    margin-left: .1rem;
+}
+
+.com-card .time {
+    color: #d1d1d1;
+    line-height: .4rem;
+}
+
+.com-card .reply {
+    color: #999;
+    font-size: .24rem;
+    line-height: .34rem;
+    padding-right: .3rem;
+    padding-top: .2rem;
+    height: .68rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

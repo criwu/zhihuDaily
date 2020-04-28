@@ -1,0 +1,92 @@
+.mine {
+    position: relative;
+    background: #fefefe;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 1rem;
+}
+
+.mine header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 100vw;
+    background: #fefefe;
+    z-index: 999;
+}
+
+.mine .user {
+    text-align: center;
+}
+
+.mine .user img {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 100%;
+}
+
+.mine .user span {
+    display: block;
+    font-size: .36rem;
+    padding: .3rem 0;
+    font-weight: 600;
+}
+
+.mine .nav {
+    margin-top: .3rem;
+}
+
+.mine .nav a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #444;
+    justify-content: space-between;
+}
+
+.mine .nav li {
+    border-top: 0.01rem solid #f0f0f0;
+    padding: .28rem .2rem;
+}
+
+.mine .nav li span {
+    font-size: .28rem;
+    vertical-align: middle;
+}
+
+.mine .am-icon-right {
+    color: #999;
+    padding-top: .03rem;
+    vertical-align: .1rem !important;
+}
+
+.mine .bottom {
+    padding-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mine .bottom li {
+    text-align: center;
+    height: 1rem;
+    position: relative;
+    width: 1.4rem;
+}
+
+.mine .bottom span {
+    display: block;
+    margin-top: .2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.mine .icon-shezhi {
+    font-size: .58rem;
+}

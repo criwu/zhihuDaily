@@ -121,6 +121,8 @@ class Index extends Component {
 }
 // 成批导入状态
 const mapStateToProps = (state) => {
+    console.log(getStories(state));
+
     return {
         stories: getStories(state)
     }

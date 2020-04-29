@@ -1,10 +1,11 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
+import asyncComponent from './util/asyncComponent'
 import Index from './pages/Index/Index'
-import Detail from './pages/Detail/Detail'
-import Comment from './pages/Comment/Comment'
-import Mine from './pages/Mine/Mine'
-import Collect from './pages/Collect/Collect'
+const Detail = asyncComponent(() => import('./pages/Detail/Detail'))
+const Comment = asyncComponent(() => import('./pages/Comment/Comment'))
+const Mine = asyncComponent(() => import('./pages/Mine/Mine'))
+const Collect = asyncComponent(() => import('./pages/Collect/Collect'))
 function App() {
   return (
     <div >

@@ -16,7 +16,7 @@ export const requestStoriesAction = () => {
     return (dispatch, getState) => {
         // 缓存
         const { stories } = getState().stories
-        if (stories !== {}) {
+        if (JSON.stringify(stories) !== '{}') {
             return
         }
         requestStories().then(res => {
